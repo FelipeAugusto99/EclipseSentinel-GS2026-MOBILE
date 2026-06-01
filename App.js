@@ -1,3 +1,4 @@
+import { registerRootComponent } from 'expo';
 import React, { useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -12,7 +13,7 @@ import OcorrenciasScreen from './src/screens/OcorrenciasScreen';
 
 const Tab = createBottomTabNavigator();
 
-export default function App() {
+function App() {
   const [logado, setLogado] = useState(false);
 
   if (!logado) {
@@ -75,3 +76,5 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
+registerRootComponent(App);

@@ -1,7 +1,3 @@
-// src/mock.js
-// Dados falsos que simulam o retorno da API
-// Quando a API do Java estiver pronta, substituir pelas chamadas reais
- 
 export const areas = [
   { id_area: 1, nome_area: 'Amazônia Norte', nivel_risco: 'ALTO', status_area: 'ATIVA' },
   { id_area: 2, nome_area: 'Pantanal', nivel_risco: 'MEDIO', status_area: 'ATIVA' },
