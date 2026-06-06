@@ -1,11 +1,11 @@
-// =========================================================
-// TROQUE O BASEURL PELO IP DO BACKEND 
-// =========================================================
+// ===============================================================
+// TROQUE O BASEURL PELO IP DO BACKEND SE ESTIVER USANDO API REAL
+// ============================================================
 
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://20.195.199.26:8080',
+  baseURL: 'http://20.206.77.25:8080',
   timeout: 5000,
 });
 
