@@ -11,7 +11,7 @@
  
 ##  Vídeo de Demonstração
  
-[Inserir link do YouTube aqui]
+https://youtu.be/j8V30TJMgXU
  
 ---
  
@@ -100,18 +100,22 @@ Escaneia o QR Code com a câmera do iPhone ou com o app Expo Go no Android.
 ---
  
 ##  Integração com a API
- 
 O app está preparado para integrar com a API REST desenvolvida na disciplina de Java Advanced.
  
-Para conectar com a API:
- 
-1. Abre o arquivo `src/api.js`
-2. Substitui o endereço base pela URL da API:
-```js
-baseURL: 'http://IP_DA_API:8080'
+**Para conectar com a API**
+
+**Siga o passo a passo do README do projeto de Devops**
+Siga o how to até o passo 11, não se esqueça de mudar a baseUrl do api.js para o ip publico obtido 
+
+```text
+https://github.com/FelipeAugusto99/EclipseSentinel-GS2026-DEVOPS
 ```
- 
-3. Nas screens, substitui as importações do `mock.js` pelas funções do `api.js`
+
+**Caso não queira conectar com a Api, mantenha o config.js assim**
+
+```bash
+export const USE_API = false;
+```
 ---
  
 ##  Bibliotecas Utilizadas
